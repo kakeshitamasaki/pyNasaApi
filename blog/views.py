@@ -52,5 +52,6 @@ def post_edit(request, pk):
 class PostViewSet(viewsets.ModelViewSet):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
+    print("aaa")
 
 
